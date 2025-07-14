@@ -18,4 +18,6 @@ Thiết lập một database mẫu từ dữ liệu marketing ngân hàng trên 
 4. Kiểm tra dữ liệu:
    ```sql
    SELECT COUNT(*) FROM bank_data;
-   SELECT TOP 10 * FROM bank_data;
+   SELECT TOP 10 * FROM bank_data; (SQL Server)
+   Hoặc
+   SELECT * FROM bank_data LIMIT 10; (MySQL)
